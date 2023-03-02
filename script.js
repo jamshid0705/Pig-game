@@ -92,3 +92,23 @@ btnNew.addEventListener('click', function () {
   }
   playing = true;
 });
+
+// console.log(window)
+// console.log(document)
+const a='jonas';
+first()
+
+function first(){
+  const b='hello'
+  second()
+
+  function second(){
+    const c='hi'
+    third(c)
+  }
+}
+
+function third(c){
+  const d='hey'
+  console.log(d+c+b+a)
+}
